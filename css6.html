@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>css task 6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #main {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #fd {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #img {
+        width: 300px;
+      }
+      #username,
+      #password {
+        width: 500px;
+      }
+      label {
+        margin-left: -430px;
+        font-weight: bold;
+      }
+      .checkbox-label {
+        display: flex;
+        align-items: center;
+        margin-left: -385px;
+        font-weight: 200;
+      }
+
+      #sub {
+        width: 525px;
+        background-color: #29aa88;
+        padding: 10px;
+        color: white;
+        border: none;
+      }
+      #td {
+        background-color: rgb(218, 218, 218);
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #c {
+        margin-top: 10px;
+        padding: 8px;
+        width: 80px;
+        background-color: rgb(255, 81, 81);
+        color: white;
+        border: none;
+        margin-bottom: 8px;
+      }
+      span {
+        float: right;
+        margin-top: 4.5%;
+        margin-right: 25px;
+      }
+      a {
+        text-decoration: underline;
+        color: black;
+      }
+      input {
+        margin-top: -15px;
+        padding: 10px;
+        margin-left: 15px;
+      }
+      #cb {
+        margin-right: 5px;
+        vertical-align: middle;
+        position: relative;
+        bottom: 1px;
+      }
+      #check {
+        display: block;
+        margin-left: -380px;
+      }
+      #cb,
+      #check {
+        display: flex;
+        vertical-align: text-bottom;
+      }
+      #cb {
+        margin-left: -500px;
+      }
+      h3 {
+        text-align: center;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>This is CSS task 6</h3>
+    <br />
+    <div id="main">
+      <div id="fd">
+        <img src="profile.jpg" /><br />
+
+        <label for="username">Username</label><br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter Username"
+        /><br /><br />
+
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Password"
+        /><br /><br />
+
+        <input type="submit" name="sub" id="sub" value="Login" /><br /><br />
+        <label id="check"> Remember me </label>
+        <input type="checkbox" id="cb" />
+      </div>
+      <br /><br />
+      <div id="td">
+        <input type="submit" name="c" id="c" value="Cancel" />
+        <span>Forgot <a href="#">password?</a></span>
+      </div>
+    </div>
+  </body>
+</html>

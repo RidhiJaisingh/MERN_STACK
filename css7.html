@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h4,
+      h3 {
+        text-align: center;
+        margin-top: 100px;
+        color: white;
+      }
+      h3 {
+        margin-top: -5px;
+      }
+      h4 {
+        margin-top: 80px;
+      }
+      body {
+        background-color: #9e2b56;
+      }
+      p {
+        background-color: #751e3e;
+        padding: 20px;
+        color: white;
+        text-align: center;
+      }
+      label {
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        color: white;
+      }
+
+      select {
+        width: 120px;
+        margin-right: 47px;
+      }
+      button {
+        margin-left: 5.5%;
+        margin-top: 5px;
+        width: 295px;
+        padding: 7px;
+        font-weight: bold;
+        border-radius: 7px;
+      }
+      #gender {
+        margin-right: 30px;
+      }
+      #About {
+        margin-left: 15px;
+      }
+      #zip {
+        margin-left: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>This is CSS task 7</h4>
+    <h3>LOGIN PAGE</h3>
+    <form>
+      <p>
+        <label>Name</label> <input type="text" /><br /><br />
+        <label>Email</label> <input type="text" /><br /><br />
+        <label>Password</label> <input type="text" /><br /><br />
+        <label>Phone Number</label> <input type="text" /><br /><br />
+        <label id="gender">Gender</label>
+        <input type="radio" name="gender" value="male" id="radio" /> Male
+        <input type="radio" name="gender" value="female" id="radio" /> Female
+        <input type="radio" name="gender" value="other" id="radio" /> Others
+        <br /><br />
+        <label id="lang">Language</label>
+        <select id="languages">
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option></select
+        ><br /><br />
+        <label>Zipcode</label><input type="text" id="zip" /><br /><br />
+        <label id="abt">About</label>
+        <textarea
+          name="About"
+          id="About"
+          rows="2"
+          placeholder="Write about yourself..."
+        ></textarea
+        ><br />
+        <br /><br />
+        <button>Register</button>
+      </p>
+    </form>
+  </body>
+</html>

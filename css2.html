@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <h3>This is CSS task 2</h3>
+    <br />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Task 2</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: lightblue;
+        width: 180px;
+        border: 3px solid black;
+        padding: 10px;
+        background-clip: content-box;
+      }
+      li a {
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+      }
+
+      li a:hover {
+        background-color: orange;
+      }
+      div {
+        background-color: lightgray;
+        border: 2px;
+        border-style: solid;
+        padding: 10px;
+        background-clip: content-box;
+        width: 260px;
+      }
+      div a:hover {
+        background-color: darkgray;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Vertical Navigation Bar</h3>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">Bootstrap</a></li>
+    </ul>
+    <h3>Vertical Navigation Bar</h3>
+    <div>
+      <a href="http://www.home.com">Home</a> |
+      <a href="http://www.java.com">Java</a> |
+      <a href="http://www.cssl.com">CSS</a> |
+      <a href="http://www.html.com">HTML</a> |
+      <a href="http://www.bootstrap.com" id="email">Bootstrap</a><br />
+    </div>
+  </body>
+</html>
